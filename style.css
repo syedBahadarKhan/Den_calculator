@@ -5,19 +5,19 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f2f5;
+    background-color: #182d4c;
     font-family: 'Arial', sans-serif;
 }
 
 .head {
     font-size: 2.5rem;
-    color: #333;
+    color: #fff;
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
 #calculator {
-    background-color: #ffffff;
+    background-color: #050948;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -98,6 +98,9 @@ button:nth-child(4n):hover {
     #calculator {
         max-width: 90%;
         padding: 1rem;
+    }
+    .head{
+        font-size: 1.5rem;
     }
 
     button {
